@@ -21,35 +21,35 @@ body {
     max-width: 90%; /* Limit width to a maximum of 90% */
 
     /* Responsive styles for iPhone 13 */
-    padding: 10px;
+    padding: 20px;
     margin: 20px;
 }
 
 h1 {
-    font-size: 24px; /* Increase font size for better vertical legibility */
+    font-size: 28px; /* Increase font size for better legibility on smartphones */
     margin: 0;
     padding: 10px;
     color: #fff;
 }
 
 #timer {
-    font-size: 20px; /* Increase font size for better vertical legibility */
+    font-size: 24px; /* Increase font size for better legibility on smartphones */
     background-color: #3498db;
     color: #fff;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px; /* Increase padding for better touch interaction on smartphones */
     margin-top: 20px;
 }
 
 /* Responsive styles for iPhone 13 */
 @media screen and (max-width: 390px) {
     h1 {
-        font-size: 22px; /* Further increase font size for better vertical legibility */
+        font-size: 24px; /* Further increase font size for better legibility on smartphones */
     }
 
     #timer {
-        font-size: 18px; /* Further increase font size for better vertical legibility */
-        padding: 10px;
+        font-size: 20px; /* Further increase font size for better legibility on smartphones */
+        padding: 15px;
         margin-top: 15px;
     }
 }
