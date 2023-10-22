@@ -21,17 +21,18 @@ body {
     /* Responsive styles for smaller screens */
     max-width: 90%;
     padding: 10px;
+    margin: 20px; /* Add margin to improve readability on mobile screens */
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 24px; /* Decrease font size for better mobile legibility */
     margin: 0;
     padding: 10px;
     color: #fff;
 }
 
 #timer {
-    font-size: 32px;
+    font-size: 20px; /* Decrease font size for better mobile legibility */
     background-color: #3498db;
     color: #fff;
     border-radius: 5px;
@@ -42,11 +43,11 @@ h1 {
 /* Responsive styles for smaller screens */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 24px;
+        font-size: 20px; /* Further reduce font size for small screens */
     }
 
     #timer {
-        font-size: 28px;
+        font-size: 18px; /* Further reduce font size for small screens */
         padding: 5px;
         margin-top: 15px;
     }
