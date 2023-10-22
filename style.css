@@ -1,5 +1,5 @@
 body {
-    background-color: #000; /* Set a plain black background color */
+    background-color: #000;
     color: #fff;
     font-family: 'San Francisco', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     text-align: center;
@@ -18,21 +18,21 @@ body {
     padding: 20px;
     box-shadow: 0px 0px 15px 0px #3498db;
 
-    /* Responsive styles for smaller screens */
+    /* Responsive styles for iPhone 13 */
     max-width: 90%;
     padding: 10px;
-    margin: 20px; /* Add margin to improve readability on mobile screens */
+    margin: 20px;
 }
 
 h1 {
-    font-size: 24px; /* Decrease font size for better mobile legibility */
+    font-size: 20px;
     margin: 0;
     padding: 10px;
     color: #fff;
 }
 
 #timer {
-    font-size: 20px; /* Decrease font size for better mobile legibility */
+    font-size: 18px;
     background-color: #3498db;
     color: #fff;
     border-radius: 5px;
@@ -40,14 +40,14 @@ h1 {
     margin-top: 20px;
 }
 
-/* Responsive styles for smaller screens */
-@media screen and (max-width: 600px) {
+/* Responsive styles for iPhone 13 */
+@media screen and (max-width: 390px) {
     h1 {
-        font-size: 20px; /* Further reduce font size for small screens */
+        font-size: 18px;
     }
 
     #timer {
-        font-size: 18px; /* Further reduce font size for small screens */
+        font-size: 16px;
         padding: 5px;
         margin-top: 15px;
     }
