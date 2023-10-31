@@ -1,5 +1,5 @@
 function updateTimeRemaining() {
-    const targetDate = new Date('2023-12-07T17:00:00');
+    const targetDate = new Date('2023-12-06T01:00:00');
     const currentDate = new Date();
     const timeRemaining = targetDate - currentDate;
 
